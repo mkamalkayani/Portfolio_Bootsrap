@@ -1,0 +1,112 @@
+/* Global Styles */
+body{
+	background: #eee;
+	font-size: 18px;
+}
+
+/* Navigation */
+nav{
+	background: #a8a4a1;
+}
+.nav-item{
+	font-size: 1.25rem;
+}
+
+/* About */
+#about .container-fluid{
+	background: white;
+	
+}
+
+#about img{
+		max-width: 35%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+#about h4{
+	padding: 10px;
+}
+
+.welcome p{
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+	.welcome p{
+		width: 70%;
+		margin: auto;
+	}
+}
+
+/* Projects */
+@media (max-width: 767px) {
+  .card {
+    margin-top: 20px;
+  }
+}
+
+.card{
+	width: 100%;
+}
+
+#projects .container-fluid{
+	background: #eee;
+}
+
+#projects h1{	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card-img-top{
+	padding: 20px;
+}
+
+#projects .row{
+	padding-bottom: 15px;
+}
+
+/* Contact */
+#contact .container-fluid{
+	background: white;
+}
+
+#contact h1{
+	font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+@media (min-width: 767px) {
+	#contact form{
+		margin-top: 60px;
+	}
+}
+
+#contact form button{
+	width: 100px;
+}
+
+/* Footer */
+footer .container{
+	color: white;
+	margin-top: 0;
+}
+
+footer{
+	background: green;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+
+footer a{
+	padding: 5px;
+}
