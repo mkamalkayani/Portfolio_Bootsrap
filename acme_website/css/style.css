@@ -1,0 +1,163 @@
+body{
+	font: 15px/1.5 Arial, Helvestica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button-1{
+	background-color: #e8491d;
+	height: 38px;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+}
+
+/* Header */
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 3px #e8491d solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 13px;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+	text-align: center;
+	color: #ffffff;
+	background: url("../images/showcase.jpg") no-repeat  0 -400px;
+	width: 100%;
+	min-height: 420px;
+}
+#showcase h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 100px;
+	font-size: 56px;	
+}
+
+#showcase p{
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+/* Newsletter */
+#newsletter{
+	padding-top: 15px;
+	background-color: #35424a;
+	color: white;
+	min-height: 100px;
+}
+
+#newsletter h1{
+	margin-bottom: 0;	
+	float: left;
+	font-size: 25px;
+}
+
+#newsletter form{
+	margin-top: 20px;
+	float: right;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#boxes img{
+	width: 100px;
+	display: inline;
+}
+
+#boxes .box{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#boxes .box h2{
+	font-size: 16px;
+}
+
+footer{
+	clear: both;
+	min-height: 60px;
+	text-align: center;
+	background-color: #e8491d;
+}
+
+footer p{
+	padding-top: 20px;
+}
+
+#about_us {
+	width: 65%;
+	float: left;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	background-color: #35424a;
+	color: white;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+
+
