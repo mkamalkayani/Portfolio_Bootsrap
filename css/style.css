@@ -1,31 +1,34 @@
 /* Global Styles */
 body{
-	background: #eee;
 	font-size: 18px;
 	min-width: 411px;
 }
 
 /* Navigation */
 nav{
-	background: #a8a4a1;
-	display: block;
+	background: blue;
+	padding-top: 0.15rem;
+	padding-bottom: 0.15rem;
 }
 .nav-item{
-	font-size: 1.25rem;
+	font-size: 1.15rem;
 }
 
-/* About */
+/*********** About ********************************************************/
 #about .container-fluid{
 	background: white;
-	display: block;
-	
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
 }
 
 #about img{
-		max-width: 35%;
-		margin-top: 15px;
-		margin-bottom: 15px;
-	}
+	margin-bottom: 15px;
+	max-height: 175px;
+	max-width: 200px;
+	border-radius: 5px;
+}
 
 #about h4{
 	padding: 10px;
@@ -34,16 +37,11 @@ nav{
 .welcome p{
 	padding: 10px;
 	padding-bottom: 20px;
+	max-width: 500px;
+	margin: auto;
 }
 
-@media (min-width: 767px) {
-	.welcome p{
-		width: 70%;
-		margin: auto;
-	}
-}
-
-/* Projects */
+/********* Projects *********************************************************/
 @media (max-width: 767px) {
   .card {
     margin-top: 20px;
@@ -59,7 +57,7 @@ nav{
 }
 
 #projects h1{	
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
@@ -71,9 +69,11 @@ nav{
 	padding-bottom: 15px;
 }
 
-/* Contact */
+/****** Contact *************************************************/
 #contact .container-fluid{
 	background: white;
+	display: flex;
+	align-items: center;
 }
 
 #contact h1{
@@ -82,17 +82,11 @@ nav{
 	padding-bottom: 15px;
 }
 
-@media (min-width: 767px) {
-	#contact form{
-		margin-top: 60px;
-	}
-}
-
 #contact form button{
 	width: 100px;
 }
 
-/* Footer */
+/****** Footer *************************************************/
 footer .container{
 	color: white;
 	margin-top: 0;
@@ -108,4 +102,12 @@ footer a{
 
 footer a{
 	padding: 5px;
+}
+
+/******* At media queries ******************************************/
+
+@media(min-width: 768px){
+	#contact .container-fluid{
+		height: 100vh;
+	}
 }
