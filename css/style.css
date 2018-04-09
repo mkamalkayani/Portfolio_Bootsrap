@@ -1,20 +1,16 @@
-/* Global Styles */
-body{
+p {
 	font-size: 18px;
-	min-width: 411px;
 }
 
-/* Navigation */
+/********** Navigation ***************************************************/
 nav{
 	background: blue;
-	padding-top: 0.15rem;
-	padding-bottom: 0.15rem;
 }
 .nav-item{
 	font-size: 1.15rem;
 }
 
-/*********** About ********************************************************/
+/*********** About *********************************************************/
 #about .container-fluid{
 	background: white;
 	height: 100vh;
@@ -24,41 +20,30 @@ nav{
 }
 
 #about img{
-	margin-bottom: 15px;
+	margin-bottom: 35px;
 	max-height: 175px;
 	max-width: 200px;
 	border-radius: 5px;
 }
 
-#about h4{
-	padding: 10px;
-}
-
 .welcome p{
-	padding: 10px;
-	padding-bottom: 20px;
 	max-width: 500px;
 	margin: auto;
 }
 
 /********* Projects *********************************************************/
-@media (max-width: 767px) {
-  .card {
-    margin-top: 20px;
-  }
-}
-
-.card{
-	width: 100%;
-}
-
-#projects .container-fluid{
+#projects {
 	background: #eee;
 }
 
-#projects h1{	
+#projects h1{
+	font-size: 26px;	
 	padding-top: 30px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+#projects h4 {
+	font-size: 18px;
 }
 
 .card-img-top{
@@ -69,7 +54,12 @@ nav{
 	padding-bottom: 15px;
 }
 
-/****** Contact *************************************************/
+.card {
+	max-width: 375px;
+	min-width: 250px;
+}
+
+/****** Contact *************************************************************/
 #contact .container-fluid{
 	background: white;
 	display: flex;
@@ -78,7 +68,7 @@ nav{
 
 #contact h1{
 	font-size: 24px;
-	padding-top: 30px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
@@ -86,7 +76,7 @@ nav{
 	width: 100px;
 }
 
-/****** Footer *************************************************/
+/****** Footer *************************************************************/
 footer .container{
 	color: white;
 	margin-top: 0;
@@ -104,10 +94,22 @@ footer a{
 	padding: 5px;
 }
 
-/******* At media queries ******************************************/
+/******* At media queries ************************************************/
+@media (max-width: 767px) {
+  .card {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+  }
 
-@media(min-width: 768px){
-	#contact .container-fluid{
+  #projects h1 {
+	margin-bottom: 0;
+	}
+}
+
+@media(min-width: 767px) {
+	#contact .container-fluid {
 		height: 100vh;
 	}
 }
+
