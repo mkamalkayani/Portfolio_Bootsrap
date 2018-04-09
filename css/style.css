@@ -52,11 +52,13 @@ nav{
 
 #projects .row{
 	padding-bottom: 15px;
+	justify-content: center;
 }
 
 .card {
 	max-width: 375px;
 	min-width: 250px;
+	margin: auto;
 }
 
 /****** Contact *************************************************************/
@@ -95,7 +97,7 @@ footer a{
 }
 
 /******* At media queries ************************************************/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .card {
     margin-top: 20px;
     margin-left: auto;
@@ -107,9 +109,14 @@ footer a{
 	}
 }
 
-@media(min-width: 767px) {
+@media(min-width: 768px) {
 	#contact .container-fluid {
 		height: 100vh;
 	}
 }
 
+@media (min-width: 768px) {
+	.card {
+		margin-bottom: 20px;
+	}
+}
