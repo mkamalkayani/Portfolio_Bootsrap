@@ -3,7 +3,7 @@
 <head>
 	<title>My Portfolio</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -12,112 +12,116 @@
 </head>
 
 <body>
+	<!-- Navigation Bar -->
+	<nav id="navbar" class="fixed-top container-fluid navbar navbar-expand-lg navbar-dark bg-primary">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-<!-- Navigation Bar -->
-<nav id="navbar" class="fixed-top container-fluid navbar navbar-expand-lg navbar-dark bg-primary">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+				</li>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-      </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- About -->	
-<section id="about">
-	<div class="container-fluid">		
-		<div class="text-center">
-			<img class="img-fluid" src="images/kamal.png" >
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
 		</div>
-		<div class="welcome text-center">
-			<h4>Muhammad Kamal</h4>
-			<p class="lead"><strong>Welcome to my portfolio page. I am a self taught web developer. I like to create dynamic, user-friendly, and responsive websites and web apps.</strong></p>
-		</div>
-	</div>
-</section>
+	</nav>
 
-<!-- My Projects -->
-<section id="projects">
-	<div class="container-fluid">
-		<div class="row text-center">
-			<!-- Project 1: Tribute page -->
-			<div class="col-md px-4">
-				<div class="card">
-				    <img class="card-img-top" src="images/project1.jpg" alt="Card image cap">
-				    <div class="card-body">
-				      <h4 class="card-title">Tribute to Dr Ruth Pfau</h4>
-				      <p class="card-text">A tribute page to acknowledge the legendary efforts by Dr Ruth Pfau.</p>
-				      <a href="https://codepen.io/Muhammad_Kamal/full/LOxVGN" target="_blank" class="btn btn-primary">View Project</a>
-				    </div>
+	<!-- About -->	
+	<section id="about">
+		<div class="container-fluid">		
+			<div class="text-center">
+				<img class="img-fluid" src="images/kamal.png" >
+			</div>
+			<div class="welcome text-center">
+				<h4>Muhammad Kamal</h4>
+				<p class="lead"><strong>Welcome to my portfolio page. I am a self taught web developer. I like to create dynamic, user-friendly, and responsive websites and web apps.</strong></p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section2 ************************************************************************************ -->
+	<section id="projects">
+		<div class="row">
+
+			<!-- Project 4: Weather App -->
+			<div class="card">
+				<img class="card-img-top" src="images/local_weather.JPG" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Weather App</h4>
+					<p class="card-text">Find out the weather conditions at your current location.</p>
+					<a href="https://mkamalkayani.github.io/localWeather/" target="_blank" class="btn btn-primary">View Project</a>
 				</div>
 			</div>
-			<!-- Project 2: Acme Web Design -->
-			<div class="col-md">
-				<div class="card">
-				    <img class="card-img-top" src="images/acme_web design.jpg" alt="Card image cap">
-				    <div class="card-body">
-				      <h4 class="card-title">Acme Web design</h4>
-				      <p class="card-text">Acme webdesign specialises in designing stunning websites.</p>
-				      <a href="acme_website/index.html" target="_blank" class="btn btn-primary">View Project</a>
-				    </div>
-				</div>
-			</div>
+
 			<!-- Project 3: Motivational Quotes -->
-			<div class="col-md px-4">
-				<div class="card">
-				    <img class="card-img-top" src="images/motivational_quotes.JPG" alt="Card image cap">
-				    <div class="card-body">
-				      <h4 class="card-title">Motivational Quotes</h4>
-				      <p class="card-text">Are you feeling down? Visit this page and feel energised and motivated.</p>
-				      <a href="https://mkamalkayani.github.io/randomQuoteMachine/" target="_blank" class="btn btn-primary">View Project</a>
-				    </div>
+			<div class="card">
+				<img class="card-img-top" src="images/motivational_quotes.JPG" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Motivational Quotes</h4>
+					<p class="card-text">Are you feeling down? Visit this page and feel energised and motivated.</p>
+					<a href="https://mkamalkayani.github.io/randomQuoteMachine/" target="_blank" class="btn btn-primary">View Project</a>
+				</div>
+			</div>
+
+			<!-- Project 2: Acme Web Design -->			
+			<div class="card">
+				<img class="card-img-top" src="images/acme_web design.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Acme Web Design</h4>
+					<p class="card-text">A website for Acme Web Design Agency.</p>
+					<a href="acme_website/index.html" target="_blank" class="btn btn-primary">View Project</a>
+				</div>
+			</div>
+
+			<!-- Project 1: Tribute Page -->
+			<div class="card">
+				<img class="card-img-top" src="images/project1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Tribute to Dr Ruth Pfau</h4>
+					<p class="card-text">A tribute page to acknowledge the legendary efforts by Dr Ruth Pfau.</p>
+					<a href="https://codepen.io/Muhammad_Kamal/full/LOxVGN" target="_blank" class="btn btn-primary">View Project</a>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 	
 	<!-- Contact -->
 	<section id="contact">
 		<div class="container-fluid">
-		<div class="row">			
-			<div class="col-md px-5">	
-				<h1 class="text-center">Contact Me</h1>
-				<p class="text-justify">If you would like to discuss some work opportunities, please feel free to contact me through the contact form on the right or just send me an email at mkamalkayani@gmail.com and I will get back to you as soon as possible. Thank you &#9786; for visiting my portfolio page.</p>
-			</div>
-			<div class="col-md px-5">	
-				<form action="form_data.php" method="POST">
-					<div class="form-group">
-					    <label for="name">Name:</label>
-					    <input type="text" class="form-control" id="name" placeholder="Steve Jobs">
-					</div>
+			<div class="row">			
+				<div class="col-md px-5">	
+					<h1 class="text-center">Contact Me</h1>
+					<p class="text-justify">If you would like to discuss some work opportunities, please feel free to contact me through the contact form on the right or just send me an email at mkamalkayani@gmail.com and I will get back to you as soon as possible. Thank you &#9786; for visiting my portfolio page.</p>
+				</div>
+				<div class="col-md px-5">	
+					<form action="form_data.php" method="POST">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" id="name" placeholder="Steve Jobs">
+						</div>
 
-					<div class="form-group">
-					    <label for="email">Email address:</label>
-					    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-					</div>
-					
-					<div class="form-group">
-					    <label for="message">Message:</label>
-					    <textarea class="form-control" id="message" rows="3"></textarea>
-					</div>
-					<button type="submit" class="btn btn-primary mb-3">Send</button>
-				</form>
-			</div>			
-		</div>
+						<div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com">
+						</div>
+
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea class="form-control" id="message" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary mb-3">Send</button>
+					</form>
+				</div>			
+			</div>
 		</div>
 	</section>
 

@@ -32,27 +32,30 @@ nav{
 }
 
 /********* Projects *********************************************************/
-#projects {
-	background: #eee;
+#projects{
+	background-color: #eee;
 }
 
-#projects h4 {
-	font-size: 18px;
-}
-
-.card-img-top{
-	padding: 20px;
-}
-
-#projects .row{
-	padding-bottom: 15px;
+.row{
+	display: flex;	
+	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
 }
 
 .card {
 	max-width: 375px;
 	min-width: 250px;
-	margin: auto;
+	margin: 30px;
+}
+
+.card-body{
+	text-align: center;
+}
+
+.card-img-top{
+	padding: 20px;
 }
 
 /****** Contact *************************************************************/
